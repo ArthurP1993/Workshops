@@ -33,6 +33,7 @@ namespace WorkShopFinal
             return Nome;
         }
 
+        virtual
         public string SeApresenta()
         {
             return $"Olá, sou {InformaNome()} e tenho {InformaIdade()} anos!";
